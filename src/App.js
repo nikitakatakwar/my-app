@@ -9,13 +9,7 @@ function App() {
   return (
     <div className="App">
     <h1>hellow</h1>
-     <BrowserRouter>
-     <Routes>
-     <Route exact path="/" component={Home} />
-     <Route path="/about" component={About} />
-     <Route path="/contact" component={Contact} />
-     </Routes>
-     </BrowserRouter>
+    
     </div>
   );
 }
